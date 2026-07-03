@@ -1,20 +1,24 @@
 # Luma
 
-Luma is an Android app for energy-aware planning. Instead of treating every task the same, Luma asks you how you're feeling first, then helps you plan around that, not against it.
+An Android app for planning around your energy instead of against it.
 
 ## Why
+Most to-do apps assume you have the same capacity every day. You don't. Luma starts with a quick
+check-in, and then helps you pick tasks that actually match how you're feeling.
 
-Most to-do apps assume you have the same amount of energy every day. In reality, focus, stress, and motivation fluctuate, and pushing through regardless often leads to burnout or a guilty, half-finished list. Luma starts from how you actually feel: a quick daily check-in, then tasks tagged by the kind of energy they require, so you can match what you do with what you have.
-
-The app is built calm and non-judgmental by design. No streaks, no guilt-tripping notifications, no emojis demanding your attention. Just a simple way to notice your energy and plan accordingly.
+No streaks, no guilt-tripping notifications, no emojis demanding your attention. Just a simple way 
+to notice your energy and plan accordingly.
 
 ## Features
 
-- **Daily check-in**: rate your energy, stress, focus, social battery, and sleep quality on a simple 1-5 scale
-- **Energy-tagged tasks**: every task is labeled as Rest, Focus, Presence, or Movement, so you know what it asks of you
-- **Home overview**: see today's check-in summary and a gentle suggestion based on how you're doing
-- **Insights**: track patterns in your energy over time
-- **First-time onboarding**: a short walkthrough explaining the concept, shown once and available again anytime via the help icon on Home
+- **Daily check-in**: rate your energy, stress, focus, social battery, and sleep quality on a 1-5 scale
+- **Energy-tagged tasks**: every task is labeled as Rest, Focus, Presence, or Movement, so you know 
+what it asks of you
+- **Active and completed tasks**: with the ability to edit, complete and restore tasks
+- **Home overview**: see today's check-in summary and a suggestion based on how you're doing
+- **Insights**: track patterns in your energy over time and see what affects your focus and recovery
+- **First-time onboarding**: a short walkthrough explaining the concept, shown once and available 
+again anytime via the help icon on Home
 
 ## Screenshots
 
@@ -22,14 +26,31 @@ The app is built calm and non-judgmental by design. No streaks, no guilt-trippin
 |---------------------------|------------------------------|----------------------------------------------------------------------|-------------------------------|
 | ![](screenshots/home.jpg) | ![](screenshots/checkin.jpg) | ![](screenshots/activetasks.jpg) ![](screenshots/completedtasks.jpg) | ![](screenshots/insights.jpg) |
 
+<table>
+  <tr>
+    <td style="text-align: center"><img src="screenshots/home.jpg" width="180"/></td>
+    <td style="text-align: center"><img src="screenshots/checkin.jpg" width="180"/></td>
+    <td style="text-align: center"><img src="screenshots/activetasks.jpg" width="180"/></td>
+    <td style="text-align: center"><img src="screenshots/completedtasks.jpg" width="180"/></td>
+    <td style="text-align: center"><img src="screenshots/insights.jpg" width="180"/></td>
+  </tr>
+  <tr>
+    <td style="text-align: center">Home</td>
+    <td style="text-align: center">Check-in</td>
+    <td style="text-align: center">Tasks — Active</td>
+    <td style="text-align: center">Tasks — Completed</td>
+    <td style="text-align: center">Insights</td>
+  </tr>
+</table>
+
 ## Tech stack
 
-- **Kotlin** with **Jetpack Compose** for UI
+- **Kotlin** with **Jetpack Compose**
 - **MVVM** architecture
-- **Room** for local persistence (check-ins and tasks)
-- **DataStore** for lightweight preferences (onboarding state)
+- **Room** for local persistence
+- **DataStore** for onboarding state
 - **Navigation Compose** for screen navigation
-- Material 3 design system with a custom calm, sand-and-sage color palette
+- Material 3 design system with a custom calm, nature based color palette
 
 ## Project structure
 
@@ -61,5 +82,5 @@ No backend or API keys are required. The app seeds itself with sample data on fi
 
 ## Status
 
-This is a portfolio/learning project and a work in progress. The focus has been on the core flow: check-in, task management, and onboarding. 
-Planned next steps include richer insights and refining the suggestion logic.
+This is a portfolio/learning project and a work in progress. The focus has been on the core flow: 
+check-in, task management, and onboarding. Planned next steps include better insights and suggestion logic.
