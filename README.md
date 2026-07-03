@@ -22,10 +22,6 @@ again anytime via the help icon on Home
 
 ## Screenshots
 
-| Home                      | Check-in                     | Tasks                                                                | Insights                      |
-|---------------------------|------------------------------|----------------------------------------------------------------------|-------------------------------|
-| ![](screenshots/home.jpg) | ![](screenshots/checkin.jpg) | ![](screenshots/activetasks.jpg) ![](screenshots/completedtasks.jpg) | ![](screenshots/insights.jpg) |
-
 <table>
   <tr>
     <td style="text-align: center"><img src="screenshots/home.jpg" width="180"/></td>
@@ -40,6 +36,30 @@ again anytime via the help icon on Home
     <td style="text-align: center">Tasks — Active</td>
     <td style="text-align: center">Tasks — Completed</td>
     <td style="text-align: center">Insights</td>
+  </tr>
+</table>
+
+
+<table>
+  <tr>
+    <td align="center"><img src="screenshots/home.jpg" width="200"/></td>
+    <td align="center"><img src="screenshots/checkin.jpg" width="200"/></td>
+    <td align="center"><img src="screenshots/insights.jpg" width="200"/></td>
+  </tr>
+  <tr>
+    <td align="center">Home</td>
+    <td align="center">Check-in</td>
+    <td align="center">Insights</td>
+  </tr>
+  <tr>
+    <td align="center"><img src="screenshots/activetasks.jpg" width="200"/></td>
+    <td align="center"><img src="screenshots/completedtasks.jpg" width="200"/></td>
+    <td align="center"></td>
+  </tr>
+  <tr>
+    <td align="center">Tasks — Active</td>
+    <td align="center">Tasks — Completed</td>
+    <td align="center"></td>
   </tr>
 </table>
 
