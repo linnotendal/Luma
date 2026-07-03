@@ -24,23 +24,6 @@ again anytime via the help icon on Home
 
 <table>
   <tr>
-    <td style="text-align: center">Home</td>
-    <td style="text-align: center">Check-in</td>
-    <td style="text-align: center">Tasks — Active</td>
-    <td style="text-align: center">Tasks — Completed</td>
-    <td style="text-align: center">Insights</td>
-  </tr>
-  <tr>
-    <td style="text-align: center"><img src="screenshots/home.jpg" width="180"/></td>
-    <td style="text-align: center"><img src="screenshots/checkin.jpg" width="180"/></td>
-    <td style="text-align: center"><img src="screenshots/activetasks.jpg" width="180"/></td>
-    <td style="text-align: center"><img src="screenshots/completedtasks.jpg" width="180"/></td>
-    <td style="text-align: center"><img src="screenshots/insights.jpg" width="180"/></td>
-  </tr>
-</table>
-
-<table>
-  <tr>
     <td>Home</td>
     <td>Check-in</td>
     <td>Tasks - Active</td>
@@ -50,8 +33,8 @@ again anytime via the help icon on Home
   <tr>
     <td><img src="screenshots/home.jpg" width="200"/></td>
     <td><img src="screenshots/checkin.jpg" width="200"/></td>
-    <td><img src="screenshots/activetasks.jpg" width="200"/></td>
-    <td><img src="screenshots/completedtasks.jpg" width="200"/></td>
+    <td><img src="screenshots/activetasks.jpg" width="200" height="420"/></td>
+    <td><img src="screenshots/completedtasks.jpg" width="200" height="420"/></td>
     <td><img src="screenshots/insights.jpg" width="200"/></td>
   </tr>
 </table>
